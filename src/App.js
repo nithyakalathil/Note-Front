@@ -12,6 +12,7 @@ function App() {
         <Route path='/add' element={<Add/>}/>
             <Route path='/search' element={<Search/>}/>
     <Route path='/view' element={<View/>}/>
+<Route path="/edit/:id" element={<Edit />} />
 
 
 
