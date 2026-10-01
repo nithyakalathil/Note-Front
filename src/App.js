@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter,Routes, Route } from "react-router-dom";
+
+import SignUp from "./components/SignUp";
+import Login from "./components/Login";
+import Add from "./components/Add";
+import Search from "./components/Search";
+import View from "./components/View";
+import Edit from "./components/Edit"; 
 
 function App() {
   return (
