@@ -22,11 +22,11 @@ const SignUp = () => {
     
     const readValue=()=>{
         console.log(data)
-        if (data.password == data.conf) {
+        if (data.password === data.conf) {
         axios.post("http://localhost:8080/signup",data).then(
             (response)=>{
                 console.log(response.data)
-                if (response.data.status=="Success") {
+                if (response.data.status==="Success") {
     
                     alert("successfully done")
                     changedata({

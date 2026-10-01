@@ -21,7 +21,7 @@ const Login = () => {
         axios.post("http://localhost:8080/signin",data).then(
             (response)=>{
                 console.log(response.data)
-                if (response.data.status=="Success") {
+                if (response.data.status==="Success") {
     
     
                     sessionStorage.setItem("token",response.data.token)

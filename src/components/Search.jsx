@@ -37,7 +37,7 @@ const deleteCourse=(id)=>{
     axios.post("http://localhost:8080/delete",input).then(
         (response)=>{
             console.log(response.data)
-            if (response.data.status=="Success") {
+            if (response.data.status==="Success") {
                 alert("deleted successfully")
             } else {
                 alert("error")

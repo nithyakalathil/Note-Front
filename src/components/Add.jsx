@@ -23,7 +23,7 @@ const readValue=()=>{
     axios.post("http://localhost:8080/add",data).then(
         (response)=>{
             console.log(response.data)
-            if (response.data.status=="Success") {
+            if (response.data.status==="Success") {
 
                 alert("add successfully")
                 
